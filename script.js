@@ -101,7 +101,7 @@ function saveAs(uri, filename) {
 
 document.getElementById("save-box").onclick = function(){
 	document.getElementById("p").innerHTML = "New";
-	html2canvas(document.getElementById("main-img"), {useCORS: true}, {allowTaint: true}).then(function(canvas) 
+	html2canvas(document.getElementById("main-img"),  {allowTaint: true}, {foreignObjectRendering: true}).then(function(canvas) 
 	{
     saveAs(canvas.toDataURL(), 'lolcat_meme.jpg');
 
