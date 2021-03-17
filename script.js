@@ -103,7 +103,7 @@ document.getElementById("save-box").onclick = function(){
 	document.getElementById("p").innerHTML = "New";
 	html2canvas(document.getElementById("main-img"), {useCORS: true}, {allowTaint: true}).then(function(canvas) 
 	{
-    saveAs(canvas.toDataURL(), 'file-name.jpg');
+    saveAs(canvas.toDataURL(), 'lolcat_meme.jpg');
 
 	}).catch(function(e){
     //error handling logic
