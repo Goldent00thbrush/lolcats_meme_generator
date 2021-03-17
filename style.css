@@ -1,0 +1,113 @@
+*{
+	background-color: #fff7f0;
+}
+.header-frame{
+	background-color:white;
+	width:100%;
+	font-size:2rem;
+	font-weight: 700;
+	border: 3px solid black;
+	box-shadow: 11px 11px black;
+	font-family: Lucida Console;
+	padding: 5px 5px 5px 5px;
+
+}
+.img-box{
+	width:25%;
+	height:350px;
+	margin: 100px 25px auto;
+	float:left;
+	display: flex;
+	justify-content: center;
+
+}
+.img-box img{
+	max-height: 100%;
+	max-width:100%;
+	display: block;
+    margin: 0 auto;
+	
+}
+.img-text{
+  display:inline-block;
+  text-align: center; 
+  width: 25%;
+  position: absolute; 
+  background-color:transparent ;
+  font-family: impact;
+  font-size: 20px;
+  font-size: 4vw;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:2px 2px 0 #000;
+  word-wrap: break-word;
+  vertical-align: middle;
+  flex: 0 0 120px;
+ 
+}
+.multiple-img-box{
+	display:block;
+	margin: 100px 25px auto;
+	height: 100px;
+	width: 1000px;
+	background-color: white;
+	float: left;
+	overflow-x: scroll; /* Allow scroll */
+	white-space: nowrap; /* This will create the magic for the horizontal scroll */ 
+}
+.mini-img-box{
+	display: inline-block;
+	max-width: 20%;
+	height:100%;
+	background-color: green;
+	overflow-y: hidden;
+	margin: 0 auto;
+}
+.mini-img-box-img {
+	max-width:100%;
+	max-height:100%;
+}
+
+.u-box{
+	display:inline-block;
+	margin: 10px 25px auto;
+}
+
+.u-box input[type="submit"]{
+	background-color: white;
+	font-size:1.2rem;
+	font-weight: 700;
+	font-family: Lucida Console;
+	border: 1px solid black;
+	padding: 5px 5px 5px;
+	position:relative;
+}
+
+.text-box{
+	display:inline-block;
+	margin: 10px 25px auto;
+}
+.text-box textarea{
+	resize:none;
+	width: 1000px;
+	height: 80px;
+	background-color: white;
+
+}
+
+.generate-box{
+	display:inline-block;
+	margin: 10px 25px auto;
+}
+.generate-box input[type="submit"]{
+	background-color: white;
+	font-size:1.2rem;
+	font-weight: 700;
+	font-family: Lucida Console;
+	border: 1px solid black;
+	padding: 5px 5px 5px;
+}
+.bottom-text{
+  bottom:280px;
+}

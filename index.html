@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <link rel="stylesheet" href="style.css">
+	</head>	
+	<body>
+	<div class="header-frame">Lolscats meme generator</div>
+	<div class="img-box" id="main-img">
+		<div id ="top-text-on-image" class="img-text"></div>
+		<div id ="bottom-text-on-image" class="img-text bottom-text"></div>
+		<img id="main-img-img" src="https://i.pinimg.com/originals/4d/8e/cc/4d8ecc6967b4a3d475be5c4d881c4d9c.jpg"/>
+	</div>
+	<div  id = "m-img-box" class="multiple-img-box">
+	</div>
+	<div class = "u-box">
+		<form >
+		  <input type="file" id="myFile" name="filename" accept=".jpg, .jpeg, .png">
+		</form>
+	</div>
+	<div class="text-box" >
+		<textarea  id="top-text" placeholder="Top text here..."></textarea>
+	</div>
+	<div class="text-box" >
+		<textarea id="bottom-text" placeholder="Bottom text here..."></textarea>
+	</div>
+	<div class="generate-box" id="buttons-gen-save">
+		<input id = "gen-box" type="submit" value="Generate lolz meme">
+		<input id = "save-box" type="submit" value="Save lolz meme" onclick="save_div()">
+	</div>
+	<p id="p">here</p>
+	</body>
+	<script src="script.js"></script>
+	<script src="html2canvas.js"></script>
+</html>
